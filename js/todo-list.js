@@ -27,7 +27,7 @@ function showTodoList(){
 
     let task_id = 1;
     for(let i=0; i<todoList.length; i++){
-        /***** 1列目 *****/
+        /****** 1列目 ******/
         // テーブルに行を追加
         let new_row = task_table.insertRow();
         // 行にセルを追加
