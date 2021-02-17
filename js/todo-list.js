@@ -36,7 +36,7 @@ function showTodoList(){
         let new_text = document.createTextNode(task_id);
         // セルにテキストノードを追加
         new_cell.appendChild(new_text);
-        /***** 2列目 *****/
+        /****** 2列目 ******/
         new_cell = new_row.insertCell();
         new_text = document.createTextNode(todoList[i]['task']);
         new_cell.appendChild(new_text);
